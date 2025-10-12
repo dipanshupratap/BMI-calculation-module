@@ -36,10 +36,11 @@ def bmi_user_input():
 
         return bmi, category
     except ValueError:
-        print("\n Invalid input! Please enter valid numeric values.")
+        print("\nInvalid input! Please enter valid numeric values.")
         return None, None
 
 
 if __name__ == "__main__":
     bmi_user_input()
    
+
