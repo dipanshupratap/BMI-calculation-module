@@ -37,10 +37,6 @@ def bmi_user_input():
     except ValueError:
         print("\nInvalid input! Please enter valid numbers.")
 
-
-# -------------------------------
-# New: Progress Comparison Feature
-# -------------------------------
 def progress_comparison():
     """Compares daily, weekly, or monthly progress in calories or steps."""
     print("\n=== Progress Comparison ===")
@@ -73,10 +69,6 @@ def progress_comparison():
     except ValueError:
         print("\nInvalid input! Please enter numeric values.")
 
-
-# -------------------------------
-# Main Menu
-# -------------------------------
 def main():
     print("=== Welcome to the Fitness Tracker ===")
     print("1. Calculate BMI")
@@ -99,4 +91,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
